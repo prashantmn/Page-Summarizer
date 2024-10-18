@@ -21,3 +21,7 @@ User-friendly popup interface
 2. Click on "This Firefox" in the left sidebar and click on "Load Temporary Add-on".
 3. Navigate to the extension's directory and select the manifest.json file.
 4. Click on the extension icon in your Firefox toolbar to open the popup.
+
+![image](https://github.com/user-attachments/assets/96259b38-7e4b-40c2-b6f4-31eb1f0879d7)
+
+
