@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "TL;DR Page Summarizer",
+  "version": "1.0",
+  "description": "Provides a TL;DR summary of the current page with customizable bullet points, text-to-speech feature, and AI-powered Q&A.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "<all_urls>",
+    "http://localhost:5000/"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon48.png",
+      "96": "icon96.png"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  }
+}
