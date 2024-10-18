@@ -1,6 +1,6 @@
 # Page-Summarizer
 
-This extension provides quick, concise summaries of web pages and allows users to ask questions about the content.
+Developed using Cursor using simple prompts, this Firefox extension provides quick, concise summaries of web pages and allows users to ask questions about the content.
 
 Key Features:
 Generates customizable bullet-point summaries of web pages
