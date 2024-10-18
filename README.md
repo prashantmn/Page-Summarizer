@@ -2,6 +2,8 @@
 
 Developed using Cursor using simple prompts, this Firefox extension provides quick, concise summaries of web pages and allows users to ask questions about the content.
 
+Currently the model takes about 3-5 mins to summarize a typical web article. I'll optimize it in the coming days. 
+
 Key Features:
 Generates customizable bullet-point summaries of web pages
 Text-to-speech functionality to read summaries aloud
